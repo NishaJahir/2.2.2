@@ -1,0 +1,19 @@
+{
+  "sections":
+  [
+    {
+      "name": "MultilingualismConfig.paymentMethod",
+      "prefix": "paymentMethod"
+    },
+    {
+      "name": "MultilingualismConfig.template",
+      "prefix": "template"
+    }
+  ],
+  "ignoredTranslationFiles":
+  [
+    "Config.properties",
+    "PaymentMethod.properties",
+    "MultilingualismConfig.properties"
+  ]
+}
