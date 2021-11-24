@@ -110,7 +110,7 @@ class NovalnetSofortPaymentMethod extends PaymentMethodService
      */
     public function getName():string
     {   
-        return $this->paymentHelper->getCustomizedTranslatedText('novalnet_sofort');
+        return $this->paymentHelper->getCustomizedTranslatedText('paymentmethod_novalnet_sofort');
     }
 
     /**
@@ -136,7 +136,7 @@ class NovalnetSofortPaymentMethod extends PaymentMethodService
      */
     public function getDescription():string
     {
-        return $this->paymentHelper->getCustomizedTranslatedText('sofort_payment_description');
+        return $this->paymentHelper->getCustomizedTranslatedText('paymentmethod_sofort_payment_description');
     }
 
     /**
