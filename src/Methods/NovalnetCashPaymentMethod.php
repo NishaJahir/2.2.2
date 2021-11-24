@@ -109,7 +109,7 @@ class NovalnetCashPaymentMethod extends PaymentMethodService
      */
     public function getName():string
     {   
-        return $this->paymentHelper->getCustomizedTranslatedText('novalnet_cashpayment');
+        return $this->paymentHelper->getCustomizedTranslatedText('paymentmethod_novalnet_cashpayment');
     }
 
     /**
@@ -136,7 +136,7 @@ class NovalnetCashPaymentMethod extends PaymentMethodService
      */
     public function getDescription():string
     {   
-        return $this->paymentHelper->getCustomizedTranslatedText('cashpayment_payment_description');
+        return $this->paymentHelper->getCustomizedTranslatedText('paymentmethod_cashpayment_payment_description');
     }
 
     /**
