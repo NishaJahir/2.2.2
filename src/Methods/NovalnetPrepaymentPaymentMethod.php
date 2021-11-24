@@ -109,7 +109,7 @@ class NovalnetPrepaymentPaymentMethod extends PaymentMethodService
      */
     public function getName():string
     {  
-        return $this->paymentHelper->getCustomizedTranslatedText('novalnet_prepayment');
+        return $this->paymentHelper->getCustomizedTranslatedText('paymentmethod_novalnet_prepayment');
     }
 
     /**
@@ -135,7 +135,7 @@ class NovalnetPrepaymentPaymentMethod extends PaymentMethodService
      */
     public function getDescription():string
     {
-        return $this->paymentHelper->getCustomizedTranslatedText('invoice_prepayment_payment_description');
+        return $this->paymentHelper->getCustomizedTranslatedText('paymentmethod_invoice_prepayment_payment_description');
     }
 
     /**
