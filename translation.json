@@ -2,8 +2,8 @@
   "sections":
   [
     {
-      "name": "MultilingualismConfig.paymentMethod",
-      "prefix": "paymentMethod"
+      "name": "MultilingualismConfig.paymentmethod",
+      "prefix": "paymentmethod"
     },
     {
       "name": "MultilingualismConfig.template",
